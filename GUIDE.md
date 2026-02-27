@@ -4,6 +4,40 @@
 
 ---
 
+## 📑 Table of Contents
+
+- [🏷️ Welcome!](#️-welcome)
+- [✅ SECTION 1 — What is GitHub Pages?](#-section-1--what-is-github-pages)
+- [🛠️ SECTION 2 — Creating Your First GitHub Pages Site](#️-section-2--creating-your-first-github-pages-site-step-by-step)
+  - [Step 1 — Create a New Repository](#step-1--create-a-new-repository)
+  - [Step 2 — Enable GitHub Pages](#step-2--enable-github-pages)
+  - [Step 3 — Visit Your Live Site](#step-3--visit-your-live-site)
+- [✏️ SECTION 3 — Customizing Your Site](#️-section-3--customizing-your-site)
+  - [3A. Changing the Title & Description](#3a-changing-the-title--description)
+  - [3B. Adding a Custom index.html](#3b-adding-a-custom-indexhtml)
+  - [3C. Choosing a Jekyll Theme](#3c-choosing-a-jekyll-theme-no-coding-required)
+- [🌐 SECTION 4 — (Optional) Setting Up a Custom Domain](#-section-4--optional-setting-up-a-custom-domain)
+- [❓ SECTION 5 — Frequently Asked Questions (FAQ)](#-section-5--frequently-asked-questions-faq)
+- [🔒 SECTION 6 — Licensing & Intellectual Property](#-section-6--licensing--intellectual-property-important)
+- [💻 SECTION 7 — Recommended Languages & Technologies](#-section-7--recommended-languages--technologies-for-github-pages)
+  - [Core Languages](#core-languages-essential)
+  - [Static Site Generators](#static-site-generators-advanced)
+  - [Front-End Frameworks & Libraries](#front-end-frameworks--libraries-client-side-only)
+  - [What GitHub Pages Does NOT Support](#what-github-pages-does-not-support)
+- [🎨 SECTION 8 — Cool Add-Ons, Tools & Integrations](#-section-8--cool-add-ons-tools--integrations-for-github-pages)
+  - [Content Management Systems](#content-management-systems-cms)
+  - [Analytics & Metrics](#analytics--metrics)
+  - [Forms & User Input](#forms--user-input)
+  - [Search Functionality](#search-functionality)
+  - [Comments & Community](#comments--community)
+  - [SEO & Performance](#seo--performance)
+  - [Design Resources](#design-resources)
+- [📚 SECTION 9 — Official GitHub Documentation & Resources](#-section-9--official-github-documentation--resources)
+- [🎉 Congratulations!](#-congratulations)
+- [📝 License & Attribution](#-license--attribution)
+
+---
+
 ## 🏷️ Welcome!
 
 **GitHub Pages** is a free hosting service by GitHub that lets you turn a repository into a live website, accessible at `https://yourusername.github.io`.
@@ -236,15 +270,272 @@ To view a copy of this license, visit https://creativecommons.org/licenses/by/4.
 
 ---
 
-## 📚 SECTION 7 — Additional Resources
+## � SECTION 7 — Recommended Languages & Technologies for GitHub Pages
 
-### Official GitHub Documentation
-- [Quickstart for GitHub Pages](https://docs.github.com/en/pages/quickstart)
-- [Creating a GitHub Pages site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
-- [Configuring a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
-- [Troubleshooting custom domains and GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages)
-- [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
-- [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
+GitHub Pages natively supports **static web technologies**. Here are the most popular and recommended options:
+
+### Core Languages (Essential)
+
+#### 1. **HTML (HyperText Markup Language)**
+- ✅ **Required** for all websites
+- Purpose: Structure and content
+- Difficulty: ⭐ Beginner-friendly
+- Example use: Creating pages, headings, paragraphs, links, images
+
+#### 2. **CSS (Cascading Style Sheets)**
+- ✅ **Highly recommended**
+- Purpose: Styling, colors, layout, responsive design
+- Difficulty: ⭐⭐ Easy to learn, powerful when mastered
+- Example use: Custom fonts, colors, animations, mobile responsiveness
+
+#### 3. **JavaScript (JS)**
+- ✅ **Recommended** for interactivity
+- Purpose: Dynamic behavior, user interactions, animations
+- Difficulty: ⭐⭐⭐ Moderate learning curve
+- Example use: Form validation, interactive galleries, dynamic content loading
+
+### Static Site Generators (Advanced)
+
+#### 1. **Jekyll** ⭐ Native GitHub Pages Support
+- ✅ **Built-in** — no setup required on GitHub Pages
+- Language: Ruby-based, uses Liquid templating
+- Best for: Blogs, documentation, portfolios
+- Features: Markdown support, themes, blog-aware
+- Official docs: https://jekyllrb.com/docs/
+
+#### 2. **Hugo** (Manual deployment required)
+- Language: Go-based
+- Best for: Lightning-fast site generation, large sites
+- Difficulty: ⭐⭐⭐
+- Note: Requires building locally and pushing to GitHub
+
+#### 3. **Next.js Static Export** (Manual deployment)
+- Language: React (JavaScript)
+- Best for: Modern React apps, portfolios, single-page apps
+- Difficulty: ⭐⭐⭐⭐
+- Note: Export static HTML via `next export`
+
+#### 4. **Gatsby** (Manual deployment)
+- Language: React (JavaScript)
+- Best for: Blazing-fast modern websites, portfolios
+- Difficulty: ⭐⭐⭐⭐
+- Note: Requires build step
+
+### Front-End Frameworks & Libraries (Client-Side Only)
+
+These work with GitHub Pages since they run in the browser:
+
+- **React.js** — Component-based UI library
+- **Vue.js** — Progressive JavaScript framework
+- **Svelte** — Compiled framework, smaller bundles
+- **Alpine.js** — Lightweight JavaScript framework
+- **Tailwind CSS** — Utility-first CSS framework
+- **Bootstrap** — Popular CSS framework for responsive design
+
+### Markup Languages
+
+- **Markdown** (.md) — Simple text formatting (supported by Jekyll)
+- **MDX** — Markdown + JSX components (requires build tools)
+
+### What GitHub Pages Does NOT Support
+
+❌ **Server-side languages** (these require a backend server):
+- PHP
+- Python (Django, Flask)
+- Ruby on Rails (backend)
+- Node.js backend (Express.js, etc.)
+- Java servlets
+- ASP.NET backend
+
+> **Workaround:** Use serverless functions (Netlify Functions, Vercel Edge Functions) or deploy backends separately (Railway, Render, Heroku)
+
+---
+
+## 🎨 SECTION 8 — Cool Add-Ons, Tools & Integrations for GitHub Pages
+
+### Content Management Systems (CMS)
+
+#### 1. **Netlify CMS** / **Decap CMS**
+- Purpose: Add a visual editor to manage content (no code)
+- Best for: Non-technical content editors
+- Integration: Add config file + authentication
+- Free tier: Yes
+- Docs: https://decapcms.org/docs/
+
+#### 2. **Forestry.io** (Now Tina CMS)
+- Purpose: Git-based headless CMS
+- Best for: Markdown-based sites (Jekyll, Hugo)
+- Free tier: Yes
+- Docs: https://tina.io/docs/
+
+#### 3. **Sanity.io**
+- Purpose: Structured content management
+- Best for: Complex content models
+- Free tier: Yes
+- Docs: https://www.sanity.io/docs/
+
+### Analytics & Metrics
+
+#### 1. **Google Analytics 4 (GA4)**
+- Track visitors, page views, user behavior
+- Free tier: Yes (generous limits)
+- Setup: Add tracking code to HTML `<head>`
+
+#### 2. **Plausible Analytics**
+- Privacy-friendly, lightweight alternative to Google Analytics
+- Free tier: No (paid, but affordable)
+- Docs: https://plausible.io/docs/
+
+#### 3. **Umami**
+- Self-hosted, open-source analytics
+- Free tier: Yes (self-hosted)
+- GitHub: https://github.com/umami-software/umami
+
+### Forms & User Input
+
+#### 1. **Formspree**
+- Purpose: Add working contact forms without backend
+- Free tier: 50 submissions/month
+- Docs: https://formspree.io/
+
+#### 2. **Netlify Forms**
+- Purpose: Form handling (requires Netlify deployment)
+- Free tier: 100 submissions/month
+- Docs: https://docs.netlify.com/forms/setup/
+
+#### 3. **Google Forms**
+- Embed Google Forms directly into your page
+- 100% free
+- Docs: https://www.google.com/forms/about/
+
+### Search Functionality
+
+#### 1. **Algolia DocSearch**
+- Purpose: Add instant search to documentation
+- Free tier: Yes (for open-source projects)
+- Best for: Documentation sites
+- Docs: https://docsearch.algolia.com/
+
+#### 2. **Lunr.js**
+- Client-side search library (no backend needed)
+- 100% free, open-source
+- Best for: Small to medium sites
+- GitHub: https://github.com/olivernn/lunr.js
+
+### Comments & Community
+
+#### 1. **Giscus**
+- Purpose: Comments powered by GitHub Discussions
+- Free tier: Yes (100% free)
+- Best for: Developer blogs, open-source projects
+- Docs: https://giscus.app/
+
+#### 2. **Utterances**
+- Purpose: Comments using GitHub Issues
+- Free tier: Yes (100% free)
+- Best for: Blogs, technical content
+- GitHub: https://github.com/utterance/utterances
+
+#### 3. **Disqus**
+- Traditional comment system
+- Free tier: Yes (with ads)
+- Docs: https://disqus.com/
+
+### SEO & Performance
+
+#### 1. **Schema.org Markup**
+- Purpose: Structured data for better search results
+- Free: Yes
+- Docs: https://schema.org/docs/gs.html
+
+#### 2. **Open Graph Tags**
+- Purpose: Better social media sharing previews
+- Free: Yes
+- Docs: https://ogp.me/
+
+#### 3. **Cloudflare Pages**
+- Alternative hosting with CDN, analytics, and performance boosts
+- Free tier: Generous
+- Docs: https://developers.cloudflare.com/pages/
+
+### Icon Libraries
+
+- **Font Awesome** — 2,000+ free icons
+- **Bootstrap Icons** — Official Bootstrap icon library
+- **Heroicons** — Tailwind-designed icons
+- **Feather Icons** — Minimalist icon set
+
+### Animation Libraries
+
+- **AOS (Animate On Scroll)** — Scroll-triggered animations
+- **GSAP** — Professional animation library
+- **Animate.css** — Simple CSS animations
+- **Lottie** — After Effects animations for web
+
+### Utilities
+
+#### 1. **giscus/utterances** (GitHub-based comments)
+- See "Comments" section above
+
+#### 2. **GitHub Actions for Automated Builds**
+- Purpose: Automate deployments, testing, builds
+- Free tier: 2,000 minutes/month (public repos unlimited)
+- Docs: https://docs.github.com/en/actions
+
+#### 3. **Shields.io Badges**
+- Purpose: Add dynamic badges (build status, license, etc.)
+- Free: Yes
+- Docs: https://shields.io/
+
+### Design Resources
+
+- **Unsplash** — Free high-quality images
+- **Pexels** — Free stock photos and videos
+- **Google Fonts** — Free web fonts
+- **Coolors.co** — Color palette generator
+
+---
+
+## 📚 SECTION 9 — Official GitHub Documentation & Resources
+
+### 📖 Official GitHub Documentation (GitHub, Inc.)
+
+> **Note:** All links below are official documentation from GitHub, Inc. and are subject to GitHub's copyright and terms of service.
+
+#### Getting Started
+- [Quickstart for GitHub Pages](https://docs.github.com/en/pages/quickstart) — Fast track to your first site
+- [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) — Core concepts and features
+- [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) — Detailed setup guide
+
+#### Jekyll & Themes
+- [About GitHub Pages and Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) — How Jekyll works with Pages
+- [Creating a GitHub Pages site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) — Step-by-step Jekyll setup
+- [Adding a theme to your GitHub Pages site using Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll) — Theme customization
+- [Supported themes](https://pages.github.com/themes/) — Official theme gallery
+
+#### Custom Domains & HTTPS
+- [Configuring a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site) — Complete domain setup guide
+- [Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) — DNS configuration
+- [Verifying your custom domain for GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages) — Domain verification
+- [Troubleshooting custom domains and GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages) — Fix common DNS issues
+- [Securing your GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https) — Enable SSL certificates
+
+#### Repository Management & Licensing
+- [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) — Choose the right license
+- [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) — How to add LICENSE file
+
+#### Advanced Configuration
+- [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) — Branch and folder options
+- [Creating a custom 404 page for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) — User-friendly error pages
+- [Unpublishing a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site) — Take your site offline
+
+#### GitHub Actions & Automation
+- [GitHub Actions documentation](https://docs.github.com/en/actions) — Automate your workflow
+- [Deploying to GitHub Pages](https://docs.github.com/en/actions/deployment/github-pages) — CI/CD for Pages
+
+#### Limits & Best Practices
+- [About GitHub Pages usage limits](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits) — Bandwidth, size restrictions
+- [GitHub Pages best practices](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#best-practices) — Performance and SEO tips
 
 ### Other Helpful Resources
 - [choosealicense.com](https://choosealicense.com) — Help choosing the right license
@@ -267,7 +558,9 @@ You've completed the guide! You now have the knowledge to:
 
 ## 📝 License & Attribution
 
-© 2026 ShamShamsw / Jacob Haseman. This guide is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+**Copyright (c) 2026 ShamShamsw / Jacob Haseman**
+
+This guide is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -277,3 +570,15 @@ You are free to:
 
 Under the following terms:
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+---
+
+### Important Disclaimers
+
+**GitHub Intellectual Property Notice:**
+GitHub, GitHub Pages, GitHub Actions, and all related trademarks, service marks, and logos are the intellectual property of GitHub, Inc. This guide is independently created educational content about using GitHub Pages and is not affiliated with, endorsed by, or sponsored by GitHub, Inc.
+
+The copyright claim above applies solely to the original written content of this guide, not to GitHub's technology, documentation, or intellectual property.
+
+**Official GitHub Documentation:**
+All links to docs.github.com and pages.github.com are copyrighted by GitHub, Inc. and subject to GitHub's Terms of Service. Visit https://docs.github.com/en/site-policy for GitHub's official policies.

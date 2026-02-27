@@ -1,0 +1,168 @@
+# ==========================================
+# Jekyll Configuration for GitHub Pages
+# ==========================================
+# This file configures Jekyll, the static site generator used by GitHub Pages.
+# Learn more: https://jekyllrb.com/docs/configuration/
+
+# Site Settings
+# ==========================================
+title: Your Name's Website
+description: >-
+  Welcome to my personal GitHub Pages site! 
+  I share projects, tutorials, and thoughts about technology.
+author: Your Name
+email: your.email@example.com
+
+# Base URL Configuration
+# ==========================================
+# If your site is at https://username.github.io, leave baseurl empty
+# If your site is at https://username.github.io/repo-name, set baseurl: "/repo-name"
+baseurl: "" 
+url: "https://yourusername.github.io"
+
+# Social Media Links (optional)
+# ==========================================
+github_username: yourusername
+twitter_username: yourhandle
+linkedin_username: yourprofile
+
+# Theme Selection
+# ==========================================
+# GitHub Pages supports these built-in themes:
+# - minima (default)
+# - jekyll-theme-minimal
+# - jekyll-theme-cayman
+# - jekyll-theme-slate
+# - jekyll-theme-architect
+# - jekyll-theme-dinky
+# - jekyll-theme-hacker
+# - jekyll-theme-leap-day
+# - jekyll-theme-merlot
+# - jekyll-theme-midnight
+# - jekyll-theme-modernist
+# - jekyll-theme-tactile
+# - jekyll-theme-time-machine
+
+theme: minima
+# Or use remote themes:
+# remote_theme: pages-themes/cayman@v0.2.0
+
+# Build Settings
+# ==========================================
+markdown: kramdown
+permalink: /:title/
+
+# Plugins (GitHub Pages automatically loads these)
+# ==========================================
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections (for organizing content)
+# ==========================================
+# Uncomment to create custom collections:
+# collections:
+#   projects:
+#     output: true
+#     permalink: /projects/:path/
+
+# Defaults (apply front matter to multiple files)
+# ==========================================
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude Files from Build
+# ==========================================
+# These files won't be included in the final site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - README.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+
+# Additional Settings
+# ==========================================
+# Show excerpt on blog index
+show_excerpts: true
+
+# Show future posts (false = only published posts)
+future: false
+
+# Timezone
+timezone: America/New_York  # Change to your timezone
+
+# Pagination (requires jekyll-paginate plugin)
+# paginate: 5
+# paginate_path: "/blog/page:num/"
+
+# Syntax Highlighting
+# ==========================================
+highlighter: rouge
+
+# Sass/SCSS Settings
+# ==========================================
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Front Matter Defaults for SEO
+# ==========================================
+# These appear in page <head> if not overridden
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/default-og-image.png  # Default social share image
+      layout: default
+
+# Custom Variables (access with {{ site.custom_variable }})
+# ==========================================
+# Add your own custom settings here
+year_started: 2026
+show_downloads: false
+google_analytics: UA-XXXXXXXXX-X  # Replace with your GA tracking ID (optional)
+
+# SEO Settings (used by jekyll-seo-tag plugin)
+# ==========================================
+lang: en_US
+logo: /assets/images/logo.png  # Path to your logo (optional)
+
+social:
+  name: Your Name
+  links:
+    - https://github.com/yourusername
+    - https://linkedin.com/in/yourprofile
+
+# ==========================================
+# Advanced Settings (most users don't need these)
+# ==========================================
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+#   syntax_highlighter: rouge
+
+# Comments (if using Disqus, Giscus, etc.)
+# comments:
+#   provider: "giscus"
+#   giscus:
+#     repo: "username/repo"
+#     repo-id: "your-repo-id"
+#     category: "General"
+#     category-id: "your-category-id"

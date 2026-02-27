@@ -22,6 +22,9 @@ This repository contains a comprehensive guide that walks complete beginners thr
 
 👉 **[Click here to read the full guide](GUIDE.md)**
 
+**Additional Resources:**
+- **[Official GitHub Documentation Reference](GITHUB_DOCS_REFERENCE.md)** — Comprehensive collection of official GitHub Pages documentation links
+
 ---
 
 ## 🚀 Quick Start
@@ -62,10 +65,24 @@ If you're ready to dive in:
 - Enabling HTTPS
 - Troubleshooting deployment issues
 
+### Languages & Technologies
+- **Recommended languages** for GitHub Pages (HTML, CSS, JavaScript, Jekyll, and more)
+- **Static site generators** compatible with GitHub Pages
+- What **does NOT work** with GitHub Pages (server-side languages)
+
+### Cool Add-Ons & Integrations
+- **Content Management Systems** (CMSs) for non-technical editors
+- **Analytics tools** to track visitors
+- **Form handlers** for contact forms without backends
+- **Comment systems** powered by GitHub
+- **Search functionality** for your site
+- **Animation libraries** and design resources
+
 ### Bonus
 - Licensing your work properly
 - Protecting your intellectual property
 - Attribution best practices
+- **Comprehensive official GitHub documentation** links
 
 ---
 
@@ -83,7 +100,11 @@ Please ensure your contributions align with the beginner-friendly nature of this
 
 ## 📝 License & Attribution
 
-© 2026 ShamShamsw  2026 ShamShamsw / Jacob Haseman. This guide is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+**Copyright (c) 2026 ShamShamsw / Jacob Haseman**
+
+This guide is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+> **Important Disclaimer:** GitHub Pages and GitHub are trademarks and intellectual property of GitHub, Inc. This guide is independently created educational content about using GitHub Pages and is not affiliated with, endorsed by, or sponsored by GitHub, Inc.
 
 ### What This Means
 
@@ -96,6 +117,18 @@ Please ensure your contributions align with the beginner-friendly nature of this
 - Give appropriate credit to the original author
 - Provide a link to the license
 - Indicate if you made changes
+
+---
+
+### Disclaimers
+
+**GitHub Intellectual Property Notice:**  
+GitHub, GitHub Pages, GitHub Actions, and all related trademarks, service marks, and logos are the intellectual property of GitHub, Inc. This guide is independently created educational content about using GitHub Pages and is not affiliated with, endorsed by, or sponsored by GitHub, Inc.
+
+The copyright claim above applies solely to the original written content of this guide, not to GitHub's technology, documentation, or intellectual property.
+
+**Official GitHub Documentation:**  
+All links to docs.github.com and pages.github.com are copyrighted by GitHub, Inc. and subject to GitHub's Terms of Service.
 
 ---
 
