@@ -83,7 +83,7 @@ Please ensure your contributions align with the beginner-friendly nature of this
 
 ## 📝 License & Attribution
 
-© 2026 ShamShamsw. This guide is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+© 2026 ShamShamsw  2026 ShamShamsw / Jacob Haseman. This guide is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ### What This Means
 
